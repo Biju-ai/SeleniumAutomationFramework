@@ -1,5 +1,6 @@
 package org.example.pages;
 
+import org.example.utils.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -24,6 +25,7 @@ public class LoginPage {
 
     }
     public void clickSubmit() {
+        Log.info("Clicking submit");
         driver.findElement(submit).click();
     }
 
