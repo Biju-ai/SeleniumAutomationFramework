@@ -18,3 +18,136 @@
 2026-01-05 15:58:52 INFO  Log - Clicking submit
 2026-01-05 15:58:55 INFO  Log - verifying login page
 2026-01-05 15:58:55 INFO  BaseTast - Stopping testing
+2026-01-06 13:36:17 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:36:18 INFO  Log - Starting test
+2026-01-06 13:37:06 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:37:14 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:37:23 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:37:31 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:37:41 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 13:37:41 INFO  Log - Starting test
+2026-01-06 13:38:26 INFO  Log - Heated in the link
+2026-01-06 13:38:27 INFO  Log - testValidLogin
+2026-01-06 13:38:27 INFO  Log - testValidLogin2...
+2026-01-06 13:38:27 INFO  Log - Clicking submit
+2026-01-06 13:38:28 INFO  Log - verifying login page
+2026-01-06 13:38:28 INFO  BaseTest - Stopping testing
+2026-01-06 14:54:22 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 14:54:22 INFO  Log - Starting test
+2026-01-06 14:54:26 INFO  Log - Heated in the link
+2026-01-06 14:54:27 INFO  Log - testValidLogin
+2026-01-06 14:54:27 INFO  Log - testValidLogin2...
+2026-01-06 14:54:28 INFO  Log - Clicking submit
+2026-01-06 14:54:28 INFO  Log - verifying login page
+2026-01-06 14:54:28 INFO  BaseTest - Stopping testing
+2026-01-06 14:59:24 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 14:59:24 INFO  Log - Starting test
+2026-01-06 14:59:26 INFO  Log - Heated in the link
+2026-01-06 14:59:28 INFO  Log - testValidLogin
+2026-01-06 14:59:28 INFO  Log - testValidLogin2...
+2026-01-06 14:59:28 INFO  Log - Clicking submit
+2026-01-06 14:59:29 INFO  Log - verifying login page
+2026-01-06 14:59:29 INFO  BaseTest - Stopping testing
+2026-01-06 15:04:10 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:04:10 INFO  Log - Starting test
+2026-01-06 15:04:13 INFO  Log - Heated in the link
+2026-01-06 15:04:13 INFO  Log - testValidLogin
+2026-01-06 15:04:13 INFO  Log - testValidLogin2...
+2026-01-06 15:04:14 INFO  Log - Clicking submit
+2026-01-06 15:04:14 INFO  Log - verifying login page
+2026-01-06 15:04:15 INFO  BaseTest - Stopping testing
+2026-01-06 15:06:32 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:06:32 INFO  Log - Starting test
+2026-01-06 15:06:34 INFO  Log - Heated in the link
+2026-01-06 15:06:45 INFO  Log - testValidLogin
+2026-01-06 15:06:45 INFO  Log - testValidLogin2...
+2026-01-06 15:06:45 INFO  Log - Clicking submit
+2026-01-06 15:06:48 INFO  Log - verifying login page
+2026-01-06 15:06:48 INFO  BaseTest - Stopping testing
+2026-01-06 15:07:18 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:07:18 INFO  Log - Starting test
+2026-01-06 15:07:20 INFO  Log - Heated in the link
+2026-01-06 15:07:21 INFO  Log - testValidLogin
+2026-01-06 15:07:22 INFO  Log - testValidLogin2...
+2026-01-06 15:07:22 INFO  Log - Clicking submit
+2026-01-06 15:07:23 INFO  Log - verifying login page
+2026-01-06 15:07:23 INFO  BaseTest - Stopping testing
+2026-01-06 15:09:18 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:09:18 INFO  Log - Starting test
+2026-01-06 15:09:20 INFO  Log - Heated in the link
+2026-01-06 15:09:21 INFO  Log - testValidLogin
+2026-01-06 15:09:21 INFO  Log - testValidLogin2...
+2026-01-06 15:09:21 INFO  Log - Clicking submit
+2026-01-06 15:09:23 INFO  Log - verifying login page
+2026-01-06 15:09:23 INFO  BaseTest - Stopping testing
+2026-01-06 15:10:38 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:10:38 INFO  Log - Starting test
+2026-01-06 15:10:40 INFO  Log - Heated in the link
+2026-01-06 15:10:42 INFO  Log - testValidLogin
+2026-01-06 15:10:42 INFO  Log - testValidLogin2...
+2026-01-06 15:10:42 INFO  Log - Clicking submit
+2026-01-06 15:10:46 INFO  Log - verifying login page
+2026-01-06 15:10:46 INFO  BaseTest - Stopping testing
+2026-01-06 15:11:54 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:11:55 INFO  Log - Starting test
+2026-01-06 15:11:58 INFO  Log - Heated in the link
+2026-01-06 15:11:59 INFO  Log - testValidLogin
+2026-01-06 15:11:59 INFO  Log - testValidLogin2...
+2026-01-06 15:11:59 INFO  Log - Clicking submit
+2026-01-06 15:12:00 INFO  Log - verifying login page
+2026-01-06 15:12:01 INFO  BaseTest - Stopping testing
+2026-01-06 15:13:45 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:13:45 INFO  Log - Starting test
+2026-01-06 15:13:47 INFO  Log - Heated in the link
+2026-01-06 15:13:48 INFO  Log - testValidLogin
+2026-01-06 15:13:48 INFO  Log - testValidLogin2...
+2026-01-06 15:13:48 INFO  Log - Clicking submit
+2026-01-06 15:13:55 INFO  Log - verifying login page
+2026-01-06 15:13:55 INFO  BaseTest - Stopping testing
+2026-01-06 15:13:55 INFO  Log - Starting test
+2026-01-06 15:13:56 INFO  Log - Heated in the link
+2026-01-06 15:14:02 INFO  Log - testValidLogin
+2026-01-06 15:14:02 INFO  Log - testValidLogin2...
+2026-01-06 15:14:02 INFO  Log - Clicking submit
+2026-01-06 15:14:06 INFO  Log - verifying login page
+2026-01-06 15:14:06 INFO  BaseTest - Stopping testing
+2026-01-06 15:17:41 INFO  Utils - [TestNG] Running:
+  C:\Users\ACER\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2026-01-06 15:17:42 INFO  Log - Starting test
+2026-01-06 15:17:44 INFO  Log - Heated in the link
+2026-01-06 15:17:47 INFO  Log - testValidLogin
+2026-01-06 15:17:47 INFO  Log - testValidLogin2...
+2026-01-06 15:17:47 INFO  Log - Clicking submit
+2026-01-06 15:17:48 INFO  Log - verifying login page
+2026-01-06 15:17:48 INFO  BaseTest - Stopping testing

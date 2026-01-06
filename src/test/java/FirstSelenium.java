@@ -6,6 +6,5 @@ public class FirstSelenium {
         WebDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/");
 
-
     }
 }
