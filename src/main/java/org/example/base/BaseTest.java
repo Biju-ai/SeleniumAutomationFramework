@@ -3,6 +3,7 @@ package org.example.base;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
+import org.example.utils.EmailUtils;
 import org.example.utils.ExtendReportManager;
 import org.example.utils.Log;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,8 @@ public class BaseTest {
     @AfterSuite //once run before the teste and once run after test
     public void teardownReport(){
         extent.flush();
+        String reportPath = ExtendReportManager.reportPath;
+        EmailUtils.sendTestReport(reportPath);
 
     }
 
