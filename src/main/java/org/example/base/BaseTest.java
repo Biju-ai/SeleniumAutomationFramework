@@ -44,7 +44,6 @@ public class BaseTest {
 
         Log.info("Heated in the link");
         driver.get("https://admin-demo.nopcommerce.com/login");
-
     }
     @AfterMethod
 
