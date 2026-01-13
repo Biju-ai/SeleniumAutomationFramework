@@ -1,6 +1,5 @@
 import org.example.base.PractiseForms;
 import org.example.pages.FormOfDemoa;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class FormTest extends PractiseForms {
