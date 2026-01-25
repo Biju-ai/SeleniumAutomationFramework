@@ -15,6 +15,8 @@ public class ActionClass {
     WebElement clicking;
     @FindBy(xpath = "//*[@id=\"firstName\"]")
     WebElement firstNameTextbox;
+    @FindBy(xpath = "//body/div[@id='app']/div[contains(@class,'body-height')]/div[contains(@class,'container playgound-body')]/div[contains(@class,'row')]/div[contains(@class,'col-md-3')]/div[contains(@class,'left-pannel')]/div[contains(@class,'accordion')]/div[2]/span[1]/div[1]")
+    WebElement doubleClick;
 
 
     public ActionClass(WebDriver driver) {
@@ -35,5 +37,13 @@ public class ActionClass {
         Thread.sleep(5000);
 
         }
+
+        public void DoubleClickingTheOption() throws InterruptedException {
+        Actions action = new Actions(driver);
+        action.doubleClick(doubleClick).build().perform();
+        Thread.sleep(5000);
+        }
+
+
 
 }

@@ -7,8 +7,9 @@ public class ActionTest extends PractiseForms {
     public void ActionTest() throws InterruptedException {
 
         ActionClass action = new ActionClass(Driver);
-        action.ClickingTheOption();
-        action.writingWordsInUpperAndLowe();
+//        action.ClickingTheOption();
+//        action.writingWordsInUpperAndLowe();
+        action.DoubleClickingTheOption();
 
     }
 }
