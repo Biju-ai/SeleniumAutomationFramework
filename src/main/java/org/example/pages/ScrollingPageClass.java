@@ -13,7 +13,8 @@ public class ScrollingPageClass {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath ="//h2[normalize-space()='Static Web Table']" )
+
+    @FindBy(xpath = "//h2[normalize-space()='Static Web Table']")
     WebElement viewElement;
 
     //scrolling the page using pixel level
@@ -27,7 +28,7 @@ public class ScrollingPageClass {
     //Scrolling the page until the item is visible
     public void scrollTillElementIsVisible() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView();",viewElement);
+        js.executeScript("arguments[0].scrollIntoView();", viewElement);
         System.out.println(js.executeScript("return window.pageYOffset;"));
         Thread.sleep(5000);
     }
@@ -35,6 +36,18 @@ public class ScrollingPageClass {
     public void scrollingTillEnd() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+        Thread.sleep(5000);
+    }
+
+    // getting back to its initial phase
+    public void scrollingToInitialPositon() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
+    }
+
+    public void zoomInZoomOut() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.body.style.zoom='50%'");
         Thread.sleep(5000);
     }
 }

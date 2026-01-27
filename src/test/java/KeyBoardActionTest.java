@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 
 import org.testng.annotations.Test;
 
-public class KeyBoardActionTest extends KeyboardAction{
+public class KeyBoardActionTest extends KeyboardAction {
     @Test
-    public void KeyBoardActionTest() throws InterruptedException {
+    public void KeyBoardAction() throws InterruptedException {
         KeyBoardActionClass keyBoardActionClass = new KeyBoardActionClass(driver);
         keyBoardActionClass.getFirstText("welcome to the QA");
         keyBoardActionClass.copyText();

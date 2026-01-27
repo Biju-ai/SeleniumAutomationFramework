@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class AlertTest extends PractiseForms {
     @Test
-    public void AlertTest() throws InterruptedException {
+    public void Alert() throws InterruptedException {
         AlertClass alertClass = new AlertClass(Driver);
         alertClass.getDropDown();
         alertClass.clickAlert();

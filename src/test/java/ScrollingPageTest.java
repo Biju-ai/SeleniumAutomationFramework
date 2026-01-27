@@ -8,6 +8,8 @@ public class ScrollingPageTest extends ScrollingPage {
         ScrollingPageClass scrollingPage = new ScrollingPageClass(driver);
 //        scrollingPage.scrollDown();
 //        scrollingPage.scrollTillElementIsVisible();
-        scrollingPage.scrollingTillEnd();
+//        scrollingPage.scrollingTillEnd();
+//        scrollingPage.scrollingToInitialPositon();
+        scrollingPage.zoomInZoomOut();
     }
 }

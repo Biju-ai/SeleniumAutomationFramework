@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class FormTest extends PractiseForms {
 
     @Test
-    public void FormTest() throws InterruptedException {
+    public void FormTests() throws InterruptedException {
         FormOfDemoa formOfDemoa = new FormOfDemoa(Driver);
         formOfDemoa.getFirstNameTextbox("First Name");
         formOfDemoa.getFirstNameTextbox2("second Name");

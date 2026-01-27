@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class DynamicPaginationTest extends DynamicPagination {
     @Test
-    public void DynamicPaginationTest() {
+    public void DynamicPagination() {
 
         DynamicPaginationPage dynamicPaginationPage = new DynamicPaginationPage(driver);
         dynamicPaginationPage.getUsername("admin");

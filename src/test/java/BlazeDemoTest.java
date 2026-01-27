@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class BlazeDemoTest extends BlazeDemo {
     @Test
-    public void BlazeDemoTest() throws InterruptedException {
+    public void BlazeDemo() throws InterruptedException {
 //        BlazeDemoClass blazeDemoClass = new BlazeDemoClass(driver);
 //        blazeDemoClass.selectData1();
 //        blazeDemoClass.getOption1();
