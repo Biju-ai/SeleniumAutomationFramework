@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite">
+
+    <test name="Login Test">
+        <groups>
+            <run>
+                <include name="regreation"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="groupingTest.LoginForm"/>
+            <class name="groupingTest.PaymentForm"/>
+            <class name="groupingTest.SignupForm"/>
+        </classes>
+
+    </test>
+
+</suite>

@@ -22,7 +22,6 @@ public class AutoSuggestionClass {
     @FindBy(name = "p")
     WebElement searchBox;
 
-
     public void clickSearchButton(String searchText) {
        new WebDriverWait(driver, Duration.ofSeconds(10))
                .until(ExpectedConditions.elementToBeClickable(searchBox));

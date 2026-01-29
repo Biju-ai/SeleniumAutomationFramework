@@ -10,5 +10,4 @@ public class JavascriptExecutorTest extends JavascriptExecutorDemo {
         js.getFemaleButton();
 
     }
-
 }

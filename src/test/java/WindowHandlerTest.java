@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class WindowHandlerTest extends PractiseForms {
     @Test
-    public void WindowHandlerTest() throws InterruptedException {
+    public void WindowHandlerTests() throws InterruptedException {
         WindowHandlingDelo windowHandlingDelo = new WindowHandlingDelo(Driver);
         windowHandlingDelo.getDeopDown();
         windowHandlingDelo.clickBrowserWindows();
