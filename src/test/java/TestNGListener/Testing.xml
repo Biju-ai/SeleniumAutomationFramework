@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite">
+    <listeners>
+        <listener class-name="TestNGListener.Listener"></listener>
+    </listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="TestNGListener.HrmOrganization"/>
+        </classes>
+    </test>
+</suite>

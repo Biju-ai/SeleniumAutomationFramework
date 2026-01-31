@@ -13,9 +13,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ExtendReportManager {
-    private static ExtentReports extent;
-    private static ExtentTest test;
-    public static String reportPath;
+    private static ExtentReports extent;//populate common info on the report
+    private static ExtentTest test;//creating test case entries in the report and update status of the test methods
+    public static String reportPath;//Ui of the report
 
 
     public static ExtentReports getReportInstance() {

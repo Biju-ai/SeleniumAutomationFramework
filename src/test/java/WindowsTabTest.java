@@ -11,6 +11,4 @@ public class WindowsTabTest  {
         driver.switchTo().newWindow(WindowType.WINDOW);
         driver.get("https://demo.nopcommerce.com/");
     }
-
-
 }
