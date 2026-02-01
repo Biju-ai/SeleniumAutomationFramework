@@ -14,6 +14,8 @@ public class DataProviderClass {
         PageFactory.initElements(driver, this);
     }
 
+
+    //Locaters
     @FindBy(xpath = "//input[@id='input-email']")
     WebElement inputEmail;
 
@@ -23,6 +25,8 @@ public class DataProviderClass {
     @FindBy(xpath = "//input[@value='Login']")
     WebElement Login;
 
+
+    //Action methods
 
     public void login(String email, String password) {
         inputEmail.sendKeys(email);

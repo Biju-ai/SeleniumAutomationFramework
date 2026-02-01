@@ -30,9 +30,6 @@ public class FormTest extends PractiseForms {
 
         formOfDemoa.getSubmitTextbox();
 
-
-
-
     }
 
 

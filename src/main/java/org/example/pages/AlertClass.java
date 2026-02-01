@@ -99,7 +99,7 @@ public class AlertClass {
         Thread.sleep(5000);
     }
 
-    //explicitWait means we can run with out switch in to alert
+    //explicitWait means we can run without a switch in to alert
 
     public void explicitWaitButton() throws InterruptedException {
         new WebDriverWait(driver, Duration.ofSeconds(10))
@@ -115,6 +115,5 @@ public class AlertClass {
         System.out.println(web.getText());
        web.accept();
     }
-
 
 }
