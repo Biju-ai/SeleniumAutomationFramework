@@ -19,7 +19,5 @@ public class ShadowDOMClass {
         SearchContext shadow = driver.findElement(By.cssSelector("book-app[apptitle='BOOKS']")).getShadowRoot();
         Thread.sleep(1000);
         shadow.findElement(By.cssSelector("#input")).sendKeys(name);
-
-
     }
 }

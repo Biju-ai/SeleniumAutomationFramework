@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class HandlingDatePickerPage {
@@ -21,13 +20,9 @@ public class HandlingDatePickerPage {
 
     public void getDatePicker(String date) {
         driver.switchTo().frame(0);
-
         WebElement element=new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(datePicker));
         element.sendKeys(date);
 
     }
-
-
-
 }

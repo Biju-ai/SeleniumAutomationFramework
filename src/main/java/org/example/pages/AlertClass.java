@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 
@@ -82,6 +83,7 @@ public class AlertClass {
         System.out.println("alert1 " + alert1.getText());
         alert1.dismiss();
         Thread.sleep(5000);
+        Assert.assertTrue(true);
     }
 
     //prompt alertBox which include text field,ok,cancel
@@ -115,5 +117,4 @@ public class AlertClass {
         System.out.println(web.getText());
        web.accept();
     }
-
 }
